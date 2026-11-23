@@ -1,0 +1,44 @@
+{
+  "rows": 1000,
+  "bad_rate": 0.3,
+  "cv_f1_per_seed": [
+    0.6099,
+    0.6197,
+    0.6142
+  ],
+  "cv_f1_mean": 0.6146,
+  "cost_min": 550,
+  "approve_below": 0.37,
+  "review_below": 0.5,
+  "bands": {
+    "approve": {
+      "n": 486,
+      "bad_rate": 0.115
+    },
+    "review": {
+      "n": 137,
+      "bad_rate": 0.255
+    },
+    "reject": {
+      "n": 377,
+      "bad_rate": 0.554
+    }
+  },
+  "odds_ratio_per_sd": {
+    "num__Age": 0.83,
+    "num__Job": 1.04,
+    "num__Saving_ord": 0.77,
+    "num__Saving_none": 0.66,
+    "num__Checking_ord": 0.67,
+    "num__Checking_none": 0.34,
+    "num__Credit amount": 2.2,
+    "num__Duration": 0.92,
+    "num__log_Monthly_payment": 0.51,
+    "cat__Housing_non_own": 1.23,
+    "cat__Housing_own": 0.82,
+    "cat__Purpose_Asset purchase": 1.2,
+    "cat__Purpose_Future investment": 1.47,
+    "cat__Purpose_Living consumption": 0.88,
+    "cat__Purpose_Others": 0.64
+  }
+}
